@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Turismo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <nav>
+        <a href="./index.html">
+          <h2>ExploraTour</h2>
+        </a>
+
+        <!-- enlaces -->
+        <div class="contenedor-enlaces">
+          <!-- icono de cierre -->
+          <i class="ri-close-circle-line cerrar-menu-hamburguesa"></i>
+          <a class="enlace" href="#home">Home</a>
+          <a class="enlace" href="#nosotros">Nosotros</a>
+          <a class="enlace" href="#paquetes">Paquetes</a>
+          <a class="enlace" href="#contacto">Contacto</a>
+        </div>
+        <!-- icono de menu hamburguesa -->
+        <i class="ri-menu-3-line menu-hamburguesa"></i>
+      </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+      <!-- seccion home -->
+      <section class="home" id="home">
+        <div class="contenedor">
+          <h1 class="titulo-home">
+            Descubre destinos increíbles y crea recuerdos inolvidables
+          </h1>
+          <p class="parrafo-home">
+            Descubre lugares mágicos y culturas fascinantes junto a nuestra
+            compañía de turismo. ¡Vive la experiencia!
+          </p>
+        </div>
+      </section>
+
+      <!-- seccion nosotros -->
+      <section class="nosotros" id="nosotros">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Nosotros</h2>
+          <div class="fila">
+            <div>
+              <img src="./imagenes/call-center.jpg" alt="" />
+            </div>
+            <div>
+              <p class="parrafo-nosotros">
+                Somos una agencia de viajes dedicada a ofrecer experiencias de
+                viaje inolvidables. Nos especializamos en destinos
+                internacionales y diseñamos paquetes personalizados para
+                satisfacer los intereses y necesidades de nuestros clientes.
+              </p>
+              <br />
+              <p class="parrafo-nosotros">
+                Somos una agencia de viajes dedicada a ofrecer experiencias de
+                viaje inolvidables. Nos especializamos en destinos
+                internacionales y diseñamos paquetes personalizados para
+                satisfacer los intereses y necesidades de nuestros clientes.
+              </p>
+
+              <a class="boton-ver-paquetes" href="#paquetes">VER PAQUETES</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- seccion-paquetes -->
+      <section class="paquetes" id="paquetes">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Paquetes</h2>
+
+          <div class="contenedor-paquetes">
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Selva Amazonica</h3>
+              <a href="./paginas/selva-amazonica.html">
+                <img src="./imagenes/imagen1chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/selva-amazonica.html"
+                >Ver Paquete
+              </a>
+            </div>
+
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Ciudades Europeas</h3>
+              <a href="./paginas/ciudades-europeas.html">
+                <img src="./imagenes/imagen2chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/ciudades-europeas.html"
+                >Ver Paquete</a
+              >
+            </div>
+
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Turismo Salvaje</h3>
+
+              <a href="./paginas/turismo-salvaje.html">
+                <img src="./imagenes/imagen3chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/turismo-salvaje.html"
+                >Ver Paquete</a
+              >
+            </div>
+
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Alta Montaña</h3>
+              <a href="./paginas/alta-montaña.html">
+                <img src="./imagenes/imagen4chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/alta-montaña.html"
+                >Ver Paquete</a
+              >
+            </div>
+
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Acapulco</h3>
+              <a href="./paginas/acapulco.html">
+                <img src="./imagenes/imagen5chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/acapulco.html"
+                >Ver Paquete</a
+              >
+            </div>
+
+            <div class="contenedor-paquete">
+              <h3 class="titulo-paquete">Safari Africano</h3>
+              <a href="./paginas/safari-africano.html">
+                <img src="./imagenes/imagen6chica.jpg" alt="" />
+              </a>
+              <a class="boton-paquete" href="./paginas/safari-africano.html"
+                >Ver Paquete</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- seccion contacto -->
+      <section class="contacto" id="contacto">
+        <div class="contenedor">
+          <h2 class="titulo-seccion">Contacto</h2>
+
+          <form>
+            <div class="contenedor-input">
+              <label for="nombre">Nombre</label>
+              <input type="text" id="nombre" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="email">Email</label>
+              <input type="email" id="email" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="telefono">Telefono</label>
+              <input type="tel" id="telefono" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="consulta">Consulta o Mensaje</label>
+              <input type="text" id="consulta" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="destino">Destino Deseado</label>
+              <input type="text" id="destino" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="fecha">Fecha de Viaje</label>
+              <input type="date" id="fecha" />
+            </div>
+
+            <div class="contenedor-input">
+              <label for="presupuesto">Presupuesto Estimado</label>
+              <input type="number" id="presupuesto" />
+            </div>
+
+            <input class="boton-enviar" type="submit" value="Enviar" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <!-- seccion footer -->
+    <footer class="footer">
+      <div class="contenedor">
+        <p>
+          2023 | ExploraTour | TE LLEVAMOS A LA MEJOR EXPERIENCIA DE TU VIDA
+        </p>
+        <div class="redes-sociales">
+          <a href=""><i class="ri-facebook-circle-fill"></i></a>
+          <a href=""><i class="ri-instagram-fill"></i></a>
+          <a href=""><i class="ri-twitter-fill"></i></a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
